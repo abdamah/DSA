@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import com.riigsoft.array.Array;
 import com.riigsoft.linkedlist.LinkedList;
-import com.riigsoft.sort.BubbleSort;
+
 /**
  * @author Abdallah Mahmoud
  * linked in profile {@link https://www.linkedin.com/in/abdallahmahmud/}
@@ -31,9 +31,9 @@ public class Main {
         LinkedList list = new LinkedList();
         list.addFirst(5);
         list.addLast(40);
-        list.addMiddle(10);
+        list.addAtMiddle(10);
         list.addFirst(5);
-        list.addMiddle(20);
+        list.addAtMiddle(20);
 
         System.out.println("Original List :");
         System.out.println(list);
